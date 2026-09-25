@@ -1,0 +1,27 @@
+{
+  "python_version": "3.12.9 | packaged by Anaconda, Inc. | (main, Feb  6 2025, 18:49:16) [MSC v.1929 64 bit (AMD64)]",
+  "sklearn_version": "1.9.0",
+  "features": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "precipitation_sum",
+    "wind_speed_10m_max"
+  ],
+  "best_params": {
+    "clf__C": 100.0
+  },
+  "test_auc": 0.8521,
+  "city": [
+    "Los Angeles",
+    [
+      34.0522,
+      -118.2437
+    ]
+  ],
+  "label_thresholds": {
+    "temperature_2m_max": "18\u201330\u00b0C",
+    "temperature_2m_min": ">= 10\u00b0C",
+    "precipitation_sum": "< 3.0 mm",
+    "wind_speed_10m_max": "< 30 km/h"
+  }
+}
