@@ -1,0 +1,18 @@
+{
+    "OPEN_METEO_URL": "https://archive-api.open-meteo.com/v1/archive",
+    "OPEN_METEO_PARAMS": {
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "start_date": "2023-01-01",
+        "end_date": "2023-12-31",
+        "daily": [
+            "temperature_2m_max",
+            "temperature_2m_min",
+            "precipitation_sum",
+            "wind_speed_10m_max"
+        ],
+        "timezone": "America/Los_Angeles"
+    },
+    "OPEN_METEO_FEATURES": ["date", "temperature_2m_max", "temperature_2m_min", "precipitation_sum", "wind_speed_10m_max"],
+    "MODEL_DIR": "assignments_11/models"
+}

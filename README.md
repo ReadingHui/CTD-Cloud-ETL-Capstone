@@ -79,32 +79,7 @@ Both are upserted on `date`, so the pipeline is safe to re-run.
 
 ### 4. `config.json`
 
-`etl_pipeline.py` reads its Open-Meteo request configuration from a `config.json` file in the project root (not included in the repo). It should look like:
-
-```json
-{
-  "OPEN_METEO_URL": "https://api.open-meteo.com/v1/forecast",
-  "OPEN_METEO_PARAMS": {
-    "latitude": 34.0522,
-    "longitude": -118.2437,
-    "daily": [
-      "temperature_2m_max",
-      "temperature_2m_min",
-      "precipitation_sum",
-      "wind_speed_10m_max"
-    ],
-    "timezone": "America/Los_Angeles"
-  },
-  "OPEN_METEO_FEATURES": [
-    "temperature_2m_max",
-    "temperature_2m_min",
-    "precipitation_sum",
-    "wind_speed_10m_max",
-    "date"
-  ],
-  "MODEL_DIR": "models"
-}
-```
+`etl_pipeline.py` reads its Open-Meteo request configuration from a `config.json` file in the project root.
 
 ## Usage
 
