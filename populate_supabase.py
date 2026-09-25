@@ -1,5 +1,3 @@
-# Video link: https://youtu.be/h-jIH7v3CbQ
-
 import requests
 import pandas as pd
 import os

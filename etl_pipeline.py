@@ -1,5 +1,3 @@
-# Video link: https://youtu.be/MompJvYL3gU
-
 import os
 import requests
 import json
